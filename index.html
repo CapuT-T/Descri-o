@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <style>
+            html,
+            body{
+                min-height: 100%;
+            }
+
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+            img{
+                display: block;
+                max-width: 100%;
+            }
+
+            .container-img,
+            .conteiner-paragrafo{
+                margin: 10px 0;
+                position: relative;
+                display: inline-block;
+            }
+
+            .infos,
+            .info-p{
+                width: 100%;
+                height: 100%;
+                padding: 5px;
+                background: rgba(0, 0, 0, 0.309);
+                border: 2px solid #E54;
+                position: absolute;
+                top: 0;
+                left: 0;
+                z-index: 10;
+            }
+
+            .info-p{
+                background: rgba(212, 255, 142, 0.796);
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container-img">
+            <img src="./foto.jpg" data-info-img alt="foto" aria-label="é uma bela foto, um belo gato, um belo dia e isso">
+        </div>
+        <div class="container-img">
+            <img src="./foto.jpg" data-info-img alt="foto" aria-label="outra bela foto, haha, bela foto....">
+        </div>
+        <div class="container-img">
+            <img src="./foto.jpg" data-info-img alt="foto" aria-label="como sempre outra bela foto, hahhaha, como assim?">
+        </div>
+        <div class="container-img">
+            <img src="./foto.jpg" data-info-img alt="foto" aria-label="Cillum eiusmod veniam velit dolor sunt et. Laboris sunt ullamco minim velit ea non Lorem occaecat ea proident ea adipisicing sunt esse. Ad ipsum dolore anim tempor quis.">
+        </div>
+        <div class="container-img">
+            <img src="./foto.jpg" data-info-img alt="foto" aria-label="Reprehenderit est id eu officia ex reprehenderit cillum ex id eiusmod sit.">
+        </div>
+
+        <div class="conteiner-paragrafo">
+            <p data-paragrafo aria-label="Texto exemplo">Id cupidatat cillum aliqua officia occaecat non ut in est deserunt ea sint dolor in. Labore nisi laborum eiusmod mollit do non laborum Lorem dolor excepteur. Aliqua ullamco tempor magna cillum magna est non et qui aliqua incididunt eu laborum esse. Et elit amet dolor duis. Dolore Lorem ut aliqua voluptate fugiat non duis fugiat minim duis nostrud ea. Velit veniam aliquip cupidatat aliqua reprehenderit aliqua voluptate ex consectetur sunt. Aute nostrud eiusmod do magna laborum labore quis.</p>
+        </div>
+
+        <div class="conteiner-paragrafo">
+            <p data-paragrafo aria-label="Texto exemplo">Id cupidatat cillum aliqua officia occaecat non ut in est deserunt ea sint dolor in. Labore nisi laborum eiusmod mollit do non laborum Lorem dolor excepteur. Aliqua ullamco tempor magna cillum magna est non et qui aliqua incididunt eu laborum esse. Et elit amet dolor duis. Dolore Lorem ut aliqua voluptate fugiat non duis fugiat minim duis nostrud ea. Velit veniam aliquip cupidatat aliqua reprehenderit aliqua voluptate ex consectetur sunt. Aute nostrud eiusmod do magna laborum labore quis.</p>
+        </div>
+
+        <div class="conteiner-paragrafo">
+            <p data-paragrafo aria-label="Texto exemplo">Id cupidatat cillum aliqua officia occaecat non ut in est deserunt ea sint dolor in. Labore nisi laborum eiusmod mollit do non laborum Lorem dolor excepteur. Aliqua ullamco tempor magna cillum magna est non et qui aliqua incididunt eu laborum esse. Et elit amet dolor duis. Dolore Lorem ut aliqua voluptate fugiat non duis fugiat minim duis nostrud ea. Velit veniam aliquip cupidatat aliqua reprehenderit aliqua voluptate ex consectetur sunt. Aute nostrud eiusmod do magna laborum labore quis.</p>
+        </div>
+        <script src="./script.js"></script>
+    </body>
+</html>
